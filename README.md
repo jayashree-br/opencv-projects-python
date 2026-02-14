@@ -104,8 +104,8 @@ Every week, I complete a focused Computer Vision task and implement it as a stan
 <pre>
 opencv-projects-python/
 │
-├── week1_image_transformations/
-├── week2_contour_detection/
+├── image_transformations/
+├── contour_detection/
 ├── assets/
 ├── requirements.txt
 └── README.md
@@ -136,3 +136,4 @@ Consistency over intensity.
 Every project strengthens conceptual clarity and practical ability.
 This is not just code — it is a systematic path toward mastery in Computer Vision.
 </p>
+
