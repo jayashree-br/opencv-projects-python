@@ -18,8 +18,6 @@ while True:
     cv.drawContours(frame,contours,-1,(0,255,0),2)
     cv.putText(frame,'Number of contours: '+str(len(contours)),(10,30),cv.FONT_HERSHEY_SIMPLEX,1,(0,0,0),2)
     cv.imshow('Contours',frame)
-    if cv.waitkey(0) & 0xFF==ord('s'):
-        cv.imwrite('Hello',frame)
     if cv.waitKey(1) & 0xFF==ord('q'):
         break
 VideoCapture.release()
